@@ -1,0 +1,28 @@
+.contactbutton {
+  padding: 2px 5px;
+  border: 1px solid #008080;
+  border-radius: 5px;
+  font-weight: bold;
+  font-family: "Greycliff CF";
+  color: #008080;
+}
+
+.contactbutton:hover {
+  
+  background-color: #008080;
+  color:#fff
+}
+
+.contactbutton:active {
+  background-color: #034e4e;
+}
+
+.guideimage{
+    background: url('/guide.png') no-repeat center center ;
+}
+
+@media screen and (max-width: 640px) {
+  .categoriescontainer {
+    flex-direction: column;
+  }
+}

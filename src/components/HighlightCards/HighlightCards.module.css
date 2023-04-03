@@ -1,0 +1,28 @@
+.title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #008080;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 20px;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .title {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 15px;
+  color: #008080;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+}   
+}
